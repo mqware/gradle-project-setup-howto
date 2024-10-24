@@ -9,6 +9,7 @@ dependencies {
     implementation(projects.kashyyyk)
     implementation(projects.naboo)
     implementation(projects.tatooine)
+    implementation(libs.activemq.broker)
     implementation(libs.guice)
     implementation(libs.guice.servlet)
     implementation(libs.slf4j.api)

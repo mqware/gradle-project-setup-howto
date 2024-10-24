@@ -1,4 +1,5 @@
 [versions]
+activemq = "5.17.6"
 assertj = "3.22.0"
 guava = "30.1-jre"
 guice = "5.1.0"
@@ -22,6 +23,7 @@ velocity = "2.3"
 zookeeper = "3.8.0"
 
 [libraries]
+activemq-broker = { module = "org.apache.activemq:activemq-broker", version.ref = "activemq" }
 assertj-core = { module = "org.assertj:assertj-core", version.ref = "assertj" }
 commons-io = { module = "commons-io:commons-io" }
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
